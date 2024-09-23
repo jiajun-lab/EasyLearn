@@ -1,0 +1,21 @@
+
+ç	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ8ƒˆìÌ°2J$df5cdaec-d20a-421a-9568-cfdd2fee2958
+j
+java:S2189$""Add an end condition to this loop.(òÔàûˇˇˇˇˇ8‡ˆìÌ°2J$ef421d0a-83c8-4961-8294-2c7b7621b3af
+ù	java:S116	"VRename this field "FRAME_DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Î¡Âˇˇˇˇˇ8‚ˆìÌ°2J$1b4c29e2-a5c4-4613-82c0-635519371207
+i
+java:S1170	"!Make this final field static too.(±Î¡Âˇˇˇˇˇ8ÎˆìÌ°2J$ab81b29e-2659-4228-9c8a-0a46f8245770
+n
+java:S1948"&Make "draw" transient or serializable.(Êáëı˙ˇˇˇˇ8∫èΩÌ°2J$2f8febf6-fc7e-41c1-aa18-091dee350afa
+}
+java:S1161":Add the "@Override" annotation above this method signature(≥˝üÍ8Ô‡®Ì°2J$fb92b9e5-54b1-4956-b85a-76841dcf652d
+°
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(‰†πÄ8ã˜ìÌ°2J$7c82c4b5-3868-404c-8edb-59f4af73d30b
+r
+java:S1197/"*Move the array designators [] to the type.(°˛œ÷¯ˇˇˇˇ8ñ˜ìÌ°2J$f520d46f-af0e-4ce1-950d-ff655d7109b5
+}
+java:S1161=":Add the "@Override" annotation above this method signature(¿¬¨Ç8è∂©Ì°2J$f0d35990-90ca-481d-b5a4-31d6ffac721b
+}
+java:S1161>":Add the "@Override" annotation above this method signature(Üë’8ê∂©Ì°2J$47f7fd12-7883-4fae-a72e-f8ade1ddc258
+}
+java:S1161?":Add the "@Override" annotation above this method signature(ö®ª¿8ë∂©Ì°2J$a3c7b2ae-6370-4e0c-865c-473d40a552ac

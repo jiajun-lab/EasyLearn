@@ -1,0 +1,22 @@
+
+†	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$2d5ed16a-06ad-41b3-b115-4037cb6015d1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùé‘½ýÿÿÿÿ8ÙÀëî¡2
+c
+java:S21895""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿJ$35a2aee4-d0e5-49b5-b636-e56a3f04e091
+–	java:S116"VRename this field "FRAME_DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ëÁåÿÿÿÿÿJ$b514f820-2015-421e-9928-25b3f126f35f
+b
+java:S1170"!Make this final field static too.(±ëÁåÿÿÿÿÿJ$92de6795-f995-4b21-98c7-0af9c696f144
+v
+java:S1161":Add the "@Override" annotation above this method signature(³ýŸêJ$44761cc0-faee-4cee-be75-8d9a4ad8e663
+š
+java:S2142<"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$bfb3bd77-5a9a-424c-803b-c42ad092abce
+k
+java:S1197B"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿJ$1827db34-10f8-4908-8980-284ffe3b1c48
+w	java:S125J"<This block of commented-out lines of code should be removed.(éäâªJ$6e3d4b41-9b62-4cfb-818f-699ea603be5b
+w	java:S125M"<This block of commented-out lines of code should be removed.(€½­ðJ$b1bae943-b846-427b-9849-bc35d2181cf4
+v
+java:S1161R":Add the "@Override" annotation above this method signature(ÀÂ¬‚J$c02c104d-8300-4ecd-82d0-caad9579c3df
+v
+java:S1161S":Add the "@Override" annotation above this method signature(†ð‘ÕJ$48a9e725-c8b7-4be1-a9cc-e061cc5b279b
+v
+java:S1161T":Add the "@Override" annotation above this method signature(š¨»ÀJ$d6c7ad47-301e-4839-9822-129ae1f5748b

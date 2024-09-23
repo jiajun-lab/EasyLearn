@@ -1,0 +1,14 @@
+
+Y
+java:S1854"CRemove this useless assignment to local variable "initialPosition".(½Ž‹™
+^
+java:S1854"CRemove this useless assignment to local variable "initialVelocity".(‰ÍŒ…ÿÿÿÿÿ
+V
+java:S1854";Remove this useless assignment to local variable "gravity".(ÇÐ·ïûÿÿÿÿ
+G
+java:S1481",Remove this unused "gravity" local variable.(ÇÐ·ïûÿÿÿÿ
+O
+java:S1481"4Remove this unused "initialVelocity" local variable.(‰ÍŒ…ÿÿÿÿÿ
+J
+java:S1481"4Remove this unused "initialPosition" local variable.(½Ž‹™
+?	java:S106"+Replace this use of System.out by a logger.(‚¢Ø

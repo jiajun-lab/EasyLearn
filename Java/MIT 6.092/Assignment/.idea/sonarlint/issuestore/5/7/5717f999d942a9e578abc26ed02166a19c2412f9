@@ -1,0 +1,5 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ˆé¼¤8½•Ûî¡2
+–	java:S116	"ORename this field "SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öûËúøÿÿÿÿ8Œã–í¡2J$1df81984-d5f0-4891-a49e-36dc2bd10446
+i
+java:S1170	"!Make this final field static too.(öûËúøÿÿÿÿ8ã–í¡2J$417c7142-e412-4147-a72a-df07e2a37967

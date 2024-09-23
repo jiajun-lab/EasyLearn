@@ -1,0 +1,20 @@
+
+	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Äö“í¡2J$adae97fb-67bd-44b5-9891-5a5037d40009
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨êø½8é÷İî¡2
+j
+java:S2189&""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8àö“í¡2J$6e18e94b-3ff1-48a8-ae63-db57a370cefc
+	java:S116"VRename this field "FRAME_DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ëÁåÿÿÿÿÿ8âö“í¡2J$52457d11-afd2-4f58-af68-9cff17780691
+i
+java:S1170"!Make this final field static too.(±ëÁåÿÿÿÿÿ8ëö“í¡2J$c59f5914-46b5-4fc9-b7b4-82193fd5cf2f
+}
+java:S1161":Add the "@Override" annotation above this method signature(³ıŸê8ïà¨í¡2J$e6d564fa-d62e-4a8e-98f2-0d8199a92a87
+¡
+java:S2142,"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8‹÷“í¡2J$31aa8048-ba7e-46fb-81ee-449cc8d2ede1
+r
+java:S11971"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8–÷“í¡2J$73864a4d-ca83-435a-bb23-db7a8e76d5b1
+}
+java:S1161?":Add the "@Override" annotation above this method signature(ÀÂ¬‚8¶©í¡2J$341408d7-d98c-4579-ba85-4ec14d676797
+}
+java:S1161@":Add the "@Override" annotation above this method signature(†ğ‘Õ8¶©í¡2J$7b8516be-dc7f-48e0-b4e1-9a17dc1fc157
+}
+java:S1161A":Add the "@Override" annotation above this method signature(š¨»À8‘¶©í¡2J$674a05cb-d516-46e8-a125-6f1909f83340
