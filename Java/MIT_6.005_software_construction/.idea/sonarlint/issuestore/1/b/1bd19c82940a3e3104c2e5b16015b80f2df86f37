@@ -1,0 +1,15 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚêÒ«ÿÿÿÿÿJ$4c5eaf6b-979c-43c1-adbd-41c135524a8c
+i
+java:S1948E"(Make "canvas" transient or serializable.(÷ŸìÍıÿÿÿÿJ$b2bf76d1-a6f0-4ab4-a8e3-7817d4ab8573
+f
+java:S1948F"*Make "graphics" transient or serializable.(ùÕJ$dbd90823-f0de-4812-b341-897759f0e141
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(åœ§BJ$c1827d23-3651-48ec-b5a9-522e1e4d3e2d
+ 
+java:S2142Â"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(øôÔ×ûÿÿÿÿJ$59da14d3-580c-47e7-952f-523f108c9201
+j	java:S108Â")Either remove or fill this block of code.(øôÔ×ûÿÿÿÿJ$1d993026-87ed-4545-ae3c-4d2d4dd0b526
+ 
+java:S2142å"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(øôÔ×ûÿÿÿÿJ$86fb402d-52ba-490f-9821-19207f8a6c36
+j
+java:S3398‘"(Move this method into "AnimationThread".(ÆÑºøÿÿÿÿJ$2e98e906-d7dd-41bf-8697-c79b446b75a4
