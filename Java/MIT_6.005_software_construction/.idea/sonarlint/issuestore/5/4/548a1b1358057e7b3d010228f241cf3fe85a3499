@@ -1,0 +1,19 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öı¦øÿÿÿÿ8¾ÒÅ®§2J$b8e3fe74-aaa9-4787-ba6a-c7b336309023
+}
+java:S1118":Add a private constructor to hide the implicit public one.(äÛÇ8óÒÅ®§2J$7763449e-44b1-4bd1-a929-736b991a9eb1
+~	java:S125D"<This block of commented-out lines of code should be removed.(…íÓ8ú­É°§2J$b789304a-cf27-4b34-ae8c-0bd984795340
+r
+java:S5869Q"*Remove duplicates in this character class.(Ñòïÿùÿÿÿÿ8€ËÉ°§2J$4662fa02-991a-4173-90ed-a6bfa54c0d5b
+r
+java:S5869Q"*Remove duplicates in this character class.(Ñòïÿùÿÿÿÿ8ƒËÉ°§2J$232ae1dd-f4ff-4ce7-9042-0314898f56a4
+r
+java:S5869Q"*Remove duplicates in this character class.(Ñòïÿùÿÿÿÿ8‡ËÉ°§2J$02e8c1a8-7eb2-4e7f-9477-bd496fdb24df
+‹
+java:S6353Q"CUse concise character class syntax '\\w' instead of '[A-Za-z0-9_]'.(Ñòïÿùÿÿÿÿ8ŒËÉ°§2J$11800c55-d255-453c-a06c-53593f8a56c4
+‹
+java:S6353Q"CUse concise character class syntax '\\w' instead of '[A-Za-z0-9_]'.(Ñòïÿùÿÿÿÿ8ËÉ°§2J$11b2817b-7485-4754-a581-a00c3462ff24
+‹
+java:S6353Q"CUse concise character class syntax '\\w' instead of '[A-Za-z0-9_]'.(Ñòïÿùÿÿÿÿ8ËÉ°§2J$7fe1000b-0540-4cbe-b9d9-eda4b8fbc30f
+K
+java:S1128"/Remove this unused import 'java.sql.Timestamp'.(èò½+8¤æÉ°§2

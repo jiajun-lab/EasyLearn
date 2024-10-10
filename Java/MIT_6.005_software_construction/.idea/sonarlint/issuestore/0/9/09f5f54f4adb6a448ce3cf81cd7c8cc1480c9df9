@@ -1,0 +1,9 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(£¾ˆ¶ûÿÿÿÿJ$9fb4689c-8269-4b81-af8f-c4e7e6a58188
+†	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(£¾ˆ¶ûÿÿÿÿJ$aa544b4f-8c25-497b-8a64-86795d74d9c2
+†	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(£¾ˆ¶ûÿÿÿÿJ$6eac96b4-1548-480c-a6b2-1dd0967f5478
+‘
+java:S1192"PDefine a constant instead of duplicating this literal "not implemented" 3 times.(£¾ˆ¶ûÿÿÿÿJ$fa4147f8-a8aa-4845-8588-0e90191bb63b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öı¦øÿÿÿÿ8ÕÅÕ¤2J$55f529a6-a9c2-40c0-ab66-920317ee5292
+v
+java:S1118":Add a private constructor to hide the implicit public one.(ØçˆíJ$d5ec333d-16b1-48cd-a132-6c4b3a42f3ca

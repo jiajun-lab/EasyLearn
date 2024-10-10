@@ -1,0 +1,18 @@
+
+—
+java:S1192="ODefine a constant instead of duplicating this literal "expected start" 6 times.(ô¬úÿÿÿÿÿ8é¦‰²§2J$1203c14b-966f-492a-9136-b5e51217d57e
+
+java:S1192>"MDefine a constant instead of duplicating this literal "expected end" 6 times.(ÌÉúŸ8é¦‰²§2J$eb2ff48f-7a69-4c5e-840f-df4ddf5a3cd5
+‰
+java:S1192t"FDefine a constant instead of duplicating this literal "user1" 3 times.(ññŸ­8é¦‰²§2J$5279c5ed-f5e8-413a-8576-394483aac8b9
+·
+java:S1192)"oDefine a constant instead of duplicating this literal "Hello @User1, have you met @user2 and @User_3?" 4 times.(½×¹ıÿÿÿÿ8ê¦‰²§2J$b97d6539-6337-43cc-bb3c-a9437aec34d6
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸæÒŞ8í¦‰²§2J$c5d887b4-1497-4d43-bd86-4facd5a7d9a9
+u
+java:S1135"2Complete the task associated to this TODO comment.(µ´æ¡8‘§‰²§2J$02ed23aa-d68f-4658-bd5c-17181a8ed87a
+–	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÂŠôûÿÿÿÿ8£§‰²§2J$7fff0cc6-1535-4ee5-a487-cbba53b0cf68
+s	java:S106ˆ"+Replace this use of System.out by a logger.(ë´šûùÿÿÿÿ8¦›²§2J$730e4874-61b4-4ff0-9f9f-e3075dafe9bd
+n
+java:S10680"+Remove this unused "tweet10" private field.(ëÈûŠ8¨§‰²§2J$37d84f18-bae4-4df0-8f9d-362674278d6a
+s
+java:S10681"+Remove this unused "tweet11" private field.(û„ìşÿÿÿÿ8¨§‰²§2J$db60fcbf-db45-4754-9832-f2bc4d14b8e2
