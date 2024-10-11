@@ -3,7 +3,10 @@
  */
 package ps1.src.twitter;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Filter consists of methods that filter a list of tweets for those matching a
@@ -27,7 +30,15 @@ public class Filter {
      *         in the same order as in the input list.
      */
     public static List<Tweet> writtenBy(List<Tweet> tweets, String username) {
-        throw new RuntimeException("not implemented");
+        List<Tweet> filteredTweets = new ArrayList<Tweet>();
+
+        for (Tweet tweet : tweets) {
+            if (tweet.getAuthor().equalsIgnoreCase(username)) {
+                filteredTweets.add(tweet);
+            }
+        }
+
+        return filteredTweets;
     }
 
     /**
@@ -41,7 +52,15 @@ public class Filter {
      *         in the same order as in the input list.
      */
     public static List<Tweet> inTimespan(List<Tweet> tweets, Timespan timespan) {
-        throw new RuntimeException("not implemented");
+        List<Tweet> filteredTweets = new ArrayList<Tweet>();
+
+        for (Tweet tweet : tweets) {
+            if (!tweet.getTimestamp().isBefore(timespan.getStart()) && !tweet.getTimestamp().isAfter(timespan.getEnd())) {
+                filteredTweets.add(tweet);
+            }
+        }
+
+        return filteredTweets;
     }
 
     /**
@@ -60,7 +79,24 @@ public class Filter {
      *         same order as in the input list.
      */
     public static List<Tweet> containing(List<Tweet> tweets, List<String> words) {
-        throw new RuntimeException("not implemented");
+        List<Tweet> filteredTweets = new ArrayList<>();
+        Set<String> wordSet = new HashSet<String>();
+
+        for(String word:words){
+            wordSet.add(word.toLowerCase());
+        }
+
+        for (Tweet tweet : tweets) {
+            String[] tweetText = tweet.getText().toLowerCase().split(" ");
+            for (String tweetWord : tweetText) {
+                if(wordSet.contains(tweetWord)) {
+                    filteredTweets.add(tweet);
+                    break;
+                }
+            }
+        }
+
+        return filteredTweets;
     }
 
 }
