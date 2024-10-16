@@ -1,16 +1,12 @@
 
 •
-java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(õÑ«ïJ$62e66ae5-8526-4d40-893f-0e8400677633
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(õÑ«ïJ$a9fc17e6-5a91-4874-a25a-7e87f5ff8ccd
 š
-java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğ¾ê•øÿÿÿÿJ$4b9ab7cb-211b-4613-b69c-70246dab6ef6
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğ¾ê•øÿÿÿÿJ$605e35dd-60ba-4e97-87fa-fa3194aec259
 š
-java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÆñÖ“ûÿÿÿÿJ$f63ac428-0dd1-4627-9a52-4997ae850d30
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÆñÖ“ûÿÿÿÿJ$9f74f5b0-9dbe-4405-a812-c073731511da
 
-java:S6208b"CMerge the previous cases into this one using comma-separated label.(®Éå J$4796c312-ce24-49cb-b4f2-d675cd9bcec8
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öı¦øÿÿÿÿ8×Ô×¤2J$e0899694-e3e4-4a95-8b4d-07a9d6c0b268
-
-java:S20955"HUse try-with-resources or close this "JsonReader" in a "finally" clause.(Êá´¶şÿÿÿÿ8ç–µ÷¦2J$ee745a10-976f-46d6-ae98-fd10d59f7434
+java:S6208b"CMerge the previous cases into this one using comma-separated label.(®Éå J$5ef52200-61d0-47c1-b934-c6253e18bbff
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öı¦øÿÿÿÿ8×Ô×¤2J$9ec51189-7caa-4159-a606-bc184762fe8d
 {
-java:S1118!":Add a private constructor to hide the implicit public one.(ûüûşÿÿÿÿJ$70daf70a-47de-4a50-9f17-bf765e8374a5
-w
-java:S2864J"4Iterate over the "entrySet" instead of the "keySet".(İ¼£¹8’—µ÷¦2J$42330ad1-6983-4127-9fc0-a61900385e05
+java:S1118!":Add a private constructor to hide the implicit public one.(ûüûşÿÿÿÿJ$db819d00-48ce-4924-bcc1-ae5f15ea5593

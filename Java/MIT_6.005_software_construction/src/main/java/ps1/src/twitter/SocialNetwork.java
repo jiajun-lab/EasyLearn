@@ -3,9 +3,8 @@
  */
 package ps1.src.twitter;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.time.Instant;
+import java.util.*;
 
 /**
  * SocialNetwork provides methods that operate on a social network.
@@ -41,7 +40,29 @@ public class SocialNetwork {
      *         either authors or @-mentions in the list of tweets.
      */
     public static Map<String, Set<String>> guessFollowsGraph(List<Tweet> tweets) {
-        throw new RuntimeException("not implemented");
+        Map<String, Set<String>> graph = new HashMap<>();
+        for (Tweet tweet : tweets) {
+            // 获得当前作者
+            String author = tweet.getAuthor().toLowerCase();
+            //如果作者不在图中将其加入graph
+            if(!graph.containsKey(author)) {
+                graph.put(author, new HashSet<>());
+            }
+            // 获得当前tweet提到的用户
+            Set<String> mentionedUsers = Extract.getMentionedUsers(tweet);
+
+            // 将被提到的用户加入当前用户
+            for (String mentionedUser : mentionedUsers) {
+                // 如果当前图中不存在该用户，加入
+                if(!graph.containsKey(mentionedUser)) {
+                    graph.put(mentionedUser, new HashSet<>());
+                }
+                graph.get(author).add(mentionedUser);
+            }
+
+        }
+
+        return graph;
     }
 
     /**
@@ -54,7 +75,37 @@ public class SocialNetwork {
      *         descending order of follower count.
      */
     public static List<String> influencers(Map<String, Set<String>> followsGraph) {
-        throw new RuntimeException("not implemented");
+        List<Map.Entry<String, Set<String>>> entryList = new ArrayList<>(followsGraph.entrySet());
+
+        Collections.sort(entryList, new Comparator<Map.Entry<String, Set<String>>>() {
+            @Override
+            public int compare(Map.Entry<String, Set<String>> t1, Map.Entry<String, Set<String>> t2) {
+                return -Integer.compare(t1.getValue().size(), t2.getValue().size());
+            }
+        });
+
+        List<String> result = new ArrayList<>();
+        for (Map.Entry<String, Set<String>> entry : entryList) {
+            result.add(entry.getKey());
+        }
+
+        return result;
+    }
+
+
+    public static void main(String[] args) {
+        Instant d1 = Instant.parse("2016-02-17T10:00:00Z");
+        Instant d2 = Instant.parse("2016-02-17T11:00:00Z");
+        Instant d3 = Instant.parse("2016-02-17T12:00:00Z");
+        Tweet tweet1 = new Tweet(1, "Alice", "Hello @Bob! How are you?", d1);
+        Tweet tweet2 = new Tweet(2, "Bob", "Hi @Alice, I'm fine. What about @Charlie?", d2);
+        Tweet tweet3 = new Tweet(3, "Charlie", "@Bob @Alice @Li Good to hear from both of you!", d3);
+
+        Map<String, Set<String>> socialGraph = guessFollowsGraph(Arrays.asList(tweet1, tweet2, tweet3));
+        System.out.println(socialGraph);
+        // 输出: {Alice=[Bob], Bob=[Alice, Charlie], Charlie=[Bob, Alice]}
+        List<String> influencers = influencers(socialGraph);
+        System.out.println(influencers);
     }
 
 }

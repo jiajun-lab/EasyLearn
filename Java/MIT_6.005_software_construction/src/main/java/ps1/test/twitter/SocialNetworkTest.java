@@ -5,14 +5,12 @@ package ps1.test.twitter;
 
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.time.Instant;
+import java.util.*;
 
 import org.junit.Test;
 import ps1.src.twitter.SocialNetwork;
+import ps1.src.twitter.Tweet;
 
 public class SocialNetworkTest {
 
@@ -21,6 +19,13 @@ public class SocialNetworkTest {
      * See the ic03-testing exercise for examples of what a testing strategy comment looks like.
      * Make sure you have partitions.
      */
+
+    private static final Instant d1 = Instant.parse("2016-02-17T10:00:00Z");
+    private static final Instant d2 = Instant.parse("2016-02-17T11:00:00Z");
+    private static final Instant d3 = Instant.parse("2016-02-17T12:00:00Z");
+    private static final Tweet tweet1 = new Tweet(1, "Alice", "Hello @Bob! How are you?", d1);
+    private static final Tweet tweet2 = new Tweet(2, "Bob", "Hi @Alice, I'm fine. What about @Charlie?", d2);
+    private static final Tweet tweet3 = new Tweet(3, "Charlie", "@Bob @Alice @Li Good to hear from both of you!", d3);
     
     @Test(expected=AssertionError.class)
     public void testAssertionsEnabled() {
@@ -33,6 +38,24 @@ public class SocialNetworkTest {
         
         assertTrue("expected empty graph", followsGraph.isEmpty());
     }
+
+    @Test
+    public void testGuessFollowsGraph() {
+        Map<String, Set<String>> followsGraph = SocialNetwork.guessFollowsGraph(List.of(tweet1, tweet2, tweet3));
+        assertEquals(4, followsGraph.size());
+        Set<String> A_followers = new HashSet<>();
+        Set<String> B_followers = new HashSet<>();
+        Set<String> C_followers = new HashSet<>();
+        A_followers.add("bob");
+        B_followers.add("alice");
+        B_followers.add("charlie");
+        C_followers.add("alice");
+        C_followers.add("bob");
+        C_followers.add("li");
+        assertEquals(A_followers, followsGraph.get("Alice".toLowerCase()));
+        assertEquals(B_followers, followsGraph.get("Bob".toLowerCase()));
+        assertEquals(C_followers, followsGraph.get("Charlie".toLowerCase()));
+    }
     
     @Test
     public void testInfluencersEmpty() {
@@ -40,6 +63,18 @@ public class SocialNetworkTest {
         List<String> influencers = SocialNetwork.influencers(followsGraph);
         
         assertTrue("expected empty list", influencers.isEmpty());
+    }
+
+    @Test
+    public void testInfluencers() {
+        Map<String, Set<String>> followsGraph = SocialNetwork.guessFollowsGraph(List.of(tweet1, tweet2, tweet3));
+        List<String> influencers= SocialNetwork.influencers(followsGraph);
+
+        assertEquals(4, influencers.size());
+        assertEquals("bob", influencers.get(1));
+        assertEquals("alice", influencers.get(2));
+        assertEquals("charlie", influencers.get(0));
+        assertEquals("li", influencers.get(3));
     }
 
     /*

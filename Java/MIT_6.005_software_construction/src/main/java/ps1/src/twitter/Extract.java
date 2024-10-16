@@ -90,4 +90,20 @@ public class Extract {
         return mentionedUsers;
     }
 
+    /**
+     * find mentioned users in one tweet
+     * @param tweet a tweet
+     * @return mentionedUsers
+     */
+    public static Set<String> getMentionedUsers(Tweet tweet) {
+        Set<String> mentionedUsers = new HashSet<>();
+        Pattern pattern = Pattern.compile("(?<![A-Za-z0-9_])@([A-Za-z0-9_]{1,15})(?![A-Za-z0-9_])", Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(tweet.getText());
+        while (matcher.find()) {
+            String username = matcher.group(1).toLowerCase();
+            mentionedUsers.add(username);
+        }
+        return mentionedUsers;
+    }
+
 }
